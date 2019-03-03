@@ -1,0 +1,117 @@
+body {
+	background: #d4c8b1;
+	font-family: Verdana;
+ 	margin: 0;
+	padding: 0;
+}
+
+.fonForBody {
+	background: none;
+}
+.authPage {
+	background: linear-gradient(to right, #d4c8b1 0%, white 33%, white 66%, #d4c8b1 100%);
+	margin: 20px auto;
+	padding-bottom: 1px;
+	text-align: center;
+	width: 400px;
+}
+
+main {
+	margin-top: 60px;
+}
+main,
+.menu {
+	padding: 0px 0 0px 5px;
+}
+.mainStartPage {
+	margin: 10px;
+}
+
+.standartInput {
+	height: 30px;
+	width: 300px;
+}
+.smallInput {
+	height: 30px;
+	width: 200px;
+}
+.standartButton {
+	height: 25px;
+	width: 120px;
+}
+.longButton {
+	height: 25px;
+	width: 200px;
+}
+.standartSelect {
+	height: 30px;
+	width: 300px;
+}
+table {
+	border-collapse: collapse;
+}
+table th,
+table td {
+	padding: 2px;
+}
+
+.success {
+	font-weight: bold;
+	color: green;
+}
+
+.inCells {
+	display: inline-block;
+	height: 100%;
+	text-align: center;
+	text-decoration: none;
+	width: 100%;
+}
+
+hr {
+	background-color: #8f1f1d;
+	border: none;
+	color: #8f1f1d;
+	height: 2px;
+}
+
+.menu {
+	background: #8f1f1d;
+	font-family: Impact;
+	font-size: 20px;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 10px;
+	min-width: 900px;
+	width: 80%;
+}
+.triangle {
+	border: 20px solid transparent;
+	border-right: 20px solid #d4c8b1;
+	margin-top: -40px;
+}
+.menu a {
+	color: white;
+	margin-left: 15px;
+	text-decoration: none;
+}
+.menu a:hover {
+	background: white;
+	color: #8f1f1d;
+	transition-duration: 1s;
+}
+.welcome {
+	margin-bottom: -20px;
+	margin-top: -20px;
+}
+.exit {
+	background: #8f1f1d;
+}
+.exit a {
+	margin-left: 0;
+}
+
+.developer {
+	text-align: center;
+	text-align: center;
+}
